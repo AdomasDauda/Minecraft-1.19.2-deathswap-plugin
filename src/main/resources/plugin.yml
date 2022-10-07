@@ -1,0 +1,24 @@
+name: Bob
+version: '${project.version}'
+main: bob.bob.Bob
+api-version: 1.19
+commands:
+  startswap:
+    description: Start swapping
+    usage: /startswap
+    aliases: /ss
+    permission: death-swap-mod
+    permission-message: You do not have permission.
+  joinswap:
+    description: Join death swap
+    usage: /joinswap
+    aliases: /js /jswap
+  leaveswap:
+    description: Leave death swap
+    usage: /leaveswap
+    aliases: /ls /lswap
+  changeswapdelay:
+    description: Change death swap delay in miliseconds
+    usage: /changeswapdelay 60
+    aliases: /csd /changesd
+    permission: death-swap-mod
